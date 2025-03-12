@@ -36,7 +36,7 @@
         </div>
     </div>
 </nav>
-<main class="d-flex container">
+<main class="d-flex container h-75">
     <div class="m-5" >
         <p>
             Rejoignez notre salle de sport moderne et conviviale !<br> Profitez dequipements haut de gamme,
