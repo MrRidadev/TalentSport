@@ -25,9 +25,13 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <button class="btn btn-primary me-2" type="submit">Log in</button>
 
-                <button class="btn btn-success " type="submit">Sign up</button>
+                <a href="login.jsp" class="btn btn-success me-2 ">
+                    Log in
+                </a>
+                <a href="signUp.jsp" class="btn btn-primary ">
+                    Sign up
+                </a>
             </form>
         </div>
     </div>
