@@ -1,5 +1,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
+
 <html>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,30 +14,30 @@
     <div class="card shadow p-4" style="width: 100%; max-width: 500px;">
         <h3 class="text-center mb-4">Créer un compte</h3>
 
-        <form>
+        <form action="/TalentSport/insertuser" method="post" >
             <div class="mb-3">
                 <label for="nom" class="form-label">Nom</label>
-                <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom" required>
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez votre nom" required>
             </div>
 
             <div class="mb-3">
                 <label for="prenom" class="form-label">Prénom</label>
-                <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom" required>
+                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrez votre prénom" required>
             </div>
 
             <div class="mb-3">
                 <label for="email" class="form-label">Adresse email</label>
-                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email" required>
             </div>
 
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
-                <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe" required>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Entrez votre mot de passe" required>
             </div>
 
             <div class="mb-3">
                 <label for="role" class="form-label">Rôle</label>
-                <select class="form-select" id="role" required>
+                <select class="form-select" id="role" name="role" required>
                     <option value="">-- Sélectionnez votre rôle --</option>
                     <option value="member">Membre</option>
                     <option value="entraineur">Entraîneur</option>
