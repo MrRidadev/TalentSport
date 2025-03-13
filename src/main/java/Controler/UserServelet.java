@@ -1,5 +1,7 @@
 package Controler;
 
+import DAO.UsersDao;
+import Model.User;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -14,6 +16,10 @@ import java.io.IOException;
         "/home"
 })
 public class UserServelet extends HttpServlet {
+    UsersDao usersDao = null;
+    public void init() {
+        usersDao = new UsersDao();
+    }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doGet(req, resp);
@@ -31,6 +37,8 @@ public class UserServelet extends HttpServlet {
                 case "/home":
                     Home(req,resp);
                         break;
+                case "/login":
+
             }
 
         } catch (Exception e) {
@@ -39,9 +47,17 @@ public class UserServelet extends HttpServlet {
     }
 
     public void InsertUser(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
+            throws ServletException, IOException
+    {
         String nom = req.getParameter("nom");
-        System.out.println(nom);
+        String prenom = req.getParameter("prenom");
+        String email = req.getParameter("email");
+        String password = req.getParameter("password");
+        String role = req.getParameter("role");
+        User user = new User(nom, prenom, email, password, role);
+        usersDao.regester(user);
+
+        resp.sendRedirect("login.jsp");
 
 
     }
@@ -51,3 +67,6 @@ public class UserServelet extends HttpServlet {
         rd.forward(req, resp);
     }
 }
+
+
+

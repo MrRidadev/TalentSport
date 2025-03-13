@@ -1,6 +1,6 @@
 package Model;
 
-public class entraineur extends user{
+public class entraineur extends User{
     private int id_entraineur;
     private String spicailite;
 

@@ -1,6 +1,6 @@
 package Model;
 
-public class user {
+public class User {
     private int id;
     private String name;
     private String prenom;
@@ -8,9 +8,12 @@ public class user {
     private String password;
     private String role;
 
-    public user() {}
-
-    public user(int id, String name, String prenom, String email, String password, String role) {
+    public User() {}
+    public User(String email,String password) {
+        this.email = email;
+        this.password = password;
+    }
+    public User(int id, String name, String prenom, String email, String password, String role) {
         this.id = id;
         this.name = name;
         this.prenom = prenom;
@@ -19,7 +22,7 @@ public class user {
         this.role = role;
     }
 
-    public user(String name, String prenom, String email, String password, String role) {
+    public User(String name, String prenom, String email, String password, String role) {
         this.name = name;
         this.prenom = prenom;
         this.email = email;

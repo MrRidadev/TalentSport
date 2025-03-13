@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="300048ab-ce7e-45a5-974f-db5c41e2605d" name="Changes" comment="" />
+    <list default="true" id="300048ab-ce7e-45a5-974f-db5c41e2605d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controler/UserServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controler/UserServelet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/entraineur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/entraineur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741861317365</updated>
-      <workItem from="1741861318891" duration="7055000" />
+      <workItem from="1741861318891" duration="10367000" />
     </task>
     <servers />
   </component>
@@ -111,16 +118,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controler/UserServelet.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controler/UserServelet.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Controler/HomeServlet.java</url>
           <line>16</line>

@@ -1,6 +1,6 @@
 package Model;
 
-public class member extends user{
+public class member extends User{
     private int id;
     private String date;
     private String sport;

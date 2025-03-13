@@ -1,19 +1,22 @@
 package DAO;
 
-import Model.user;
+import Model.User;
+
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UsersDao extends connexion{
 
-    protected static final String INSERT_USERS = "insert into users(id,nom,prenom,email,password,role) values (?,?,?,?,?,?);";
+    protected static final String INSERT_USERS = "insert into users(nom,prenom,email,password,role) values (?,?,?,?,?);";
 
     public UsersDao() {}
 
-    public void regester(user user){
+
+
+
+    public void regester(User user){
 
         try (Connection con = getConnection();
              PreparedStatement stm = con.prepareStatement(INSERT_USERS);)
