@@ -1,21 +1,21 @@
 package Model;
 
-public class member extends User{
+public class Member extends User{
     private int id;
     private String date;
     private String sport;
 
 
-    public member() {}
+    public Member() {}
 
-    public member(int id, String date, String sport) {
+    public Member(int id, String date, String sport) {
         this.id = id;
         this.date = date;
         this.sport = sport;
 
     }
 
-    public member( String date, String sport) {
+    public Member(String date, String sport) {
         this.date = date;
         this.sport = sport;
 
@@ -41,7 +41,7 @@ public class member extends User{
 
     @Override
     public String toString() {
-        return "member{" +
+        return "Member{" +
                 "id=" + id +
                 ", date='" + date + '\'' +
                 ", sport='" + sport + '\'' +
