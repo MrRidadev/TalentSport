@@ -12,15 +12,15 @@
     <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
         <h3 class="text-center mb-4">Connexion</h3>
 
-        <form>
+        <form action="login" method="post">
             <div class="mb-3">
                 <label for="email" class="form-label">Adresse email</label>
-                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+                <input type="email" class="form-control" id="email" NAME="email" placeholder="Entrez votre email" required>
             </div>
 
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
-                <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe" required>
+                <input type="password" class="form-control" id="password"  name="password" placeholder="Entrez votre mot de passe" required>
             </div>
 
             <button type="submit" class="btn btn-primary w-100">Se connecter</button>

@@ -5,33 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300048ab-ce7e-45a5-974f-db5c41e2605d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/entraineur.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/member.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controler/UserServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controler/UserServelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UsersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/entraineur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/entraineur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/connexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MrRidadev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MrRidadev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MrRidadev/TalentSport.git",
-    "accountId": "140ef1aa-4ce5-40e2-9d8e-712278f5d396"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MrRidadev/TalentSport.git&quot;,
+    &quot;accountId&quot;: &quot;140ef1aa-4ce5-40e2-9d8e-712278f5d396&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -39,9 +50,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2uG3vuCQwEF12h3bLAsjjOefWbG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +62,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Smart Tomcat.Tomcat: TalentSport.executor": "Run",
+    "Smart Tomcat.Tomcat: TalentSport.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/devja/Desktop/java-jee/rendez-vous-login",
@@ -64,6 +75,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\devja\Desktop\java-jee\TalentSport\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat: TalentSport" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -74,9 +90,6 @@
       <option name="catalinaBase" value="C:\Users\devja\.SmartTomcat\TalentSport\TalentSport" />
       <option name="contextPath" value="/TalentSport" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -108,7 +121,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741861317365</updated>
-      <workItem from="1741861318891" duration="10367000" />
+      <workItem from="1741861318891" duration="10916000" />
+      <workItem from="1741901777408" duration="1954000" />
+      <workItem from="1741905506381" duration="742000" />
+      <workItem from="1741946430498" duration="1777000" />
     </task>
     <servers />
   </component>
@@ -127,6 +143,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/Controler/HomeServlet.java</url>
           <line>17</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controler/LoginServlet.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

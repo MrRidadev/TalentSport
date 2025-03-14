@@ -7,13 +7,13 @@ import java.sql.SQLException;
 
 public class connexion {
 
-    private final String dbURI = "jdbc:mysql://localhost:3306/TalentSport?useSSL=false";
-    private final String dbUsername = "root";
-    private final String dbPassword = "0000";
+    private static final String dbURI = "jdbc:mysql://localhost:3306/TalentSport?useSSL=false";
+    private static final String dbUsername = "root";
+    private static final String dbPassword = "0000";
 
     public connexion() {}
 
-    public Connection getConnection () {
+    public static Connection getConnection() {
         Connection con = null;
 
         try {
