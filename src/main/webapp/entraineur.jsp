@@ -36,5 +36,10 @@
     </div>
 </nav>
 <h1>hello entraineur</h1>
+
+<form action="EntraineurAdd" method="post">
+    <input type="text" name="specailite">
+    <input type="submit" value="add">
+</form>
 </body>
 </html>

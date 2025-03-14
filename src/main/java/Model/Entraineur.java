@@ -1,18 +1,18 @@
 package Model;
 
-public class entraineur extends User{
+public class Entraineur extends User{
     private int id_entraineur;
     private String spicailite;
 
 
-    public entraineur(){}
+    public Entraineur(){}
 
-    public entraineur(int id_entraineur, String spicailite) {
+    public Entraineur(int id_entraineur, String spicailite) {
         this.id_entraineur = id_entraineur;
         this.spicailite = spicailite;
     }
 
-    public entraineur(String spicailite) {
+    public Entraineur(String spicailite) {
         this.spicailite = spicailite;
     }
 
